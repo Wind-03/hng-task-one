@@ -10,8 +10,10 @@ function getCurrentDay() {
 }
  // Function to get the current UTC time in milliseconds
 function getCurrentUTCTime() {
-    return Date.now();
+    currentUTCTime.textContent = `Current UTC Time: ${Date.now()} milliseconds`;
 }
+getCurrentUTCTime();
+setInterval(getCurrentUTCTime, 1000)
+
 // Set the content of the elements
 currentDay.textContent = `Current Day of the Week: ${getCurrentDay()}`;
-currentUTCTime.textContent = `Current UTC Time: ${getCurrentUTCTime()} milliseconds`;
