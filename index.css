@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+}
+.body{
+    border: 1px solid #ccc;
+    width:35%;
+    margin:30px auto;
+    padding-bottom:40px;
+    color:#fff;
+}
+#currentDay, #currentUTCTime, .myTrack {
+    font-size: 1.5em;
+    margin: 20px;
+}
+.profile-img{
+    width:400px;
+    height:300px;
+    object-fit: contain;
+}
+.slack-name{
+    font-size: 3em;
+    margin: 20px;
+}
